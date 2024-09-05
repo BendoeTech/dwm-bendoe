@@ -12,8 +12,10 @@ Thank you Chris Titus for this nice work!
 This is my personal fork with some changes to the configurations:
 <details>
   <summary>Click to see my changes</summary>
+
   - Changed some color
   - Changed some paths for my requests
+
 </details>
 
 ---
