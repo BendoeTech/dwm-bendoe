@@ -17,12 +17,12 @@ static const int topbar                       = 1;   /* 0 means bottom bar */
 #define ICONSPACING                           5      /* space between icon and title */
 #define SHOWWINICON                           1      /* 0 means no winicon */
 static const char *fonts[]                    = { "MesloLGS Nerd Font Mono:size=16", "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true" };
-static const char normbordercolor[]           = "#3B4252";
-static const char normbgcolor[]               = "#2E3440";
-static const char normfgcolor[]               = "#D8DEE9";
-static const char selbordercolor[]            = "#434C5E";
-static const char selbgcolor[]                = "#434C5E";
-static const char selfgcolor[]                = "#ECEFF4";
+static const char normbordercolor[]           = "#9E4C14";
+static const char normbgcolor[]               = "#9E4C14";
+static const char normfgcolor[]               = "#DBDBDB";
+static const char selbordercolor[]            = "#9E4C14";
+static const char selbgcolor[]                = "#9E4C14";
+static const char selfgcolor[]                = "#FFFFFF";
 
 static const char *colors[][3] = {
     /*               fg           bg           border   */
@@ -98,8 +98,8 @@ static Key keys[] = {
     { MODKEY|ControlMask,           XK_r,                      spawn,          SHCMD ("protonrestart")},
     { MODKEY,                       XK_x,                      spawn,          {.v = termcmd } },
     { MODKEY,                       XK_b,                      spawn,          SHCMD ("xdg-open https://")},
-    { MODKEY,                       XK_p,                      spawn,          SHCMD ("flameshot full -p /media/drive/Screenshots/")},
-    { MODKEY|ShiftMask,             XK_p,                      spawn,          SHCMD ("flameshot gui -p /media/drive/Screenshots/")},
+    { MODKEY,                       XK_p,                      spawn,          SHCMD ("flameshot full -p ~/Pictures/Screenshots/")},
+    { MODKEY|ShiftMask,             XK_p,                      spawn,          SHCMD ("flameshot gui -p ~/Pictures/Screenshots/")},
     { MODKEY|ControlMask,           XK_p,                      spawn,          SHCMD ("flameshot gui --clipboard")},
     { MODKEY,                       XK_e,                      spawn,          SHCMD ("thunar")},
     { MODKEY,                       XK_w,                      spawn,          SHCMD ("looking-glass-client -F")},

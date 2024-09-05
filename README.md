@@ -7,7 +7,17 @@
 </div>
 
 ---
-This is my **Personal Fork** with following patches:
+Thank you Chris Titus for this nice work!
+
+This is my personal fork with some changes to the configurations:
+<details>
+  <summary>Click to see my changes</summary>
+  - Changed some color
+  - Changed some paths for my requests
+</details>
+
+---
+This is **ChrisTitus-Fork** with following patches:
 
 <details>
   <summary>Click to see the list of patches</summary>
@@ -112,10 +122,15 @@ This guide assumes your system has the latest updates before going ahead with th
 Clone the repository, then compile and install.
 
 ```sh
-git clone https://github.com/ChrisTitusTech/dwm-titus.git && \
-cd dwm-titus && \
+git clone https://github.com/BendoeTech/LinuxKnowledge.git && \
+cd dwm-bendoe && \
 make  && \
 sudo make install
+```
+
+Run the setup script
+```sh
+./setup.ch
 ```
 
 - A dwm.desktop file will be placed in `/usr/share/xsessions/` so if you are using a login manager you should now be able to select dwm as the window manager when logging in.
