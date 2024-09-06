@@ -124,7 +124,7 @@ This guide assumes your system has the latest updates before going ahead with th
 Clone the repository, then compile and install.
 
 ```sh
-git clone https://github.com/BendoeTech/LinuxKnowledge.git && \
+git clone https://github.com/BendoeTech/dwm-bendoe.git && \
 cd dwm-bendoe && \
 make  && \
 sudo make install
